@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar{
+    height: 500px;
+    width: 500px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+#table_container{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+
+.mytable{
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    margin-left: 11% ;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+th{
+    padding: 10px;
+}  
+
+.month_year{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#mnth{
+    height: 40px;
+    width: 105px;
+    border: 1px solid black;
+}
+
+#yr{
+    height: 40px;
+    width: 105px;
+    border: 1px solid black;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+
+.enter{
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(56, 56, 168);
+    border-radius: 10px;
+}
+
+.ed{
+    height: 30px;
+    width: 120px;
+    margin-left: 10% ;
+    border: 2px solid black;
+}
+
+.color{
+    background-color: green;
