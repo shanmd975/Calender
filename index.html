@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <div class="calendar">
+            <div class="month_year">
+                <div class="month">
+                    <select id="mnth" onchange="test()">
+                        <option>Select Month</option>
+                    </select>
+                </div>
+                <div class="year">
+                    <select id="yr" onchange="test()">
+                        <option>Select Year</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="table_container"></div>
+
+            <div class="date">
+                <input id="input" type="number" class="ed" placeholder="Enter Any Date" onchange="test()" />
+                <button id="btn" class="enter">Enter</button>
+            </div>
+
+            
+        </div>
+    
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
